@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: #35424a;
+  height: 100px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Arial', serif;
+  padding: 30px;
+}
+
+.tex-color {
+  color: #e8491d;
+}
+
+.menu-items {
+  list-style: none;
+  line-height: 2.5;
+}
+
+.menu-items li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.menu-items a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
