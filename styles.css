@@ -9,13 +9,10 @@
   height: 100px;
   color: #fff;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-family: 'Arial', serif;
-  padding: 30px;
-}
-
-.tex-color {
-  color: #e8491d;
+  padding: 30px 120px;
+  align-items: center;
 }
 
 .menu-items {
@@ -31,5 +28,15 @@
 .menu-items a {
   color: #fff;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 17px;
+}
+
+a.tex-color, .tex-color {
+  color: #e8491d;
+}
+
+hr {
+  height: 3px;
+  border-width: 0;
+  background-color: #e8491d;
 }
