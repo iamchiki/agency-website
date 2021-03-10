@@ -66,3 +66,31 @@ hr {
 .section-text {
   width: 80%;
 }
+
+/* newsletter styles */
+
+#newsletter {
+  background-color: #35424a;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+#newsletter button {
+  background-color: #e8491d;
+  color: #fff;
+  border-width: 0;
+  padding: 10px 20px;
+}
+
+.newsletter-form {
+  width: 40%;
+}
+
+#newsletter input {
+  padding: 10px;
+  border: none;
+  width: 45%;
+}
