@@ -87,6 +87,8 @@ hr {
 
 .newsletter-form {
   width: 40%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 #newsletter input {
