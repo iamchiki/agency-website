@@ -120,3 +120,14 @@ hr {
   justify-content: space-between;
   align-items: center;
 }
+
+#footer {
+  height: 100px;
+  width: 100%;
+  background-color: #e8491d;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
