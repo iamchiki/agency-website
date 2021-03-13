@@ -96,3 +96,16 @@ hr {
   border: none;
   width: 45%;
 }
+
+/* imgage-section styles */
+
+#img-section {
+  display: flex;
+  text-align: center;
+  /* padding: 20px 40px; */
+  margin-top: 30px;
+}
+
+.img-block img {
+  width: 90px;
+}
