@@ -109,3 +109,9 @@ hr {
 .img-block img {
   width: 90px;
 }
+
+.img-section {
+  /* width: 80%; */
+  display: flex;
+  justify-content: center;
+}
