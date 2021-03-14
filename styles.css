@@ -131,3 +131,33 @@ hr {
   align-items: center;
   margin-top: 40px;
 }
+
+/* about page styles */
+
+#about-section {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.spl-background {
+  background-color: #35424a;
+  color: #fff;
+  padding: 20px;
+}
+
+#about-article {
+  width: 60%;
+}
+
+#about-aside {
+  width: 30%;
+  padding: 30px 20px;
+}
+
+#about-section p {
+  margin-top: 20px;
+}
