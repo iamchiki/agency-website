@@ -74,7 +74,7 @@ hr {
   color: #fff;
 }
 
-#newsletter button {
+button {
   background-color: #e8491d;
   color: #fff;
   border-width: 0;
@@ -153,11 +153,54 @@ hr {
   width: 60%;
 }
 
-#about-aside {
+.aside {
   width: 30%;
   padding: 30px 20px;
+  height: 350px;
 }
 
 #about-section p {
   margin-top: 20px;
+}
+
+/* Service page styles */
+
+#service-section {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+#service-article {
+  width: 60%;
+}
+
+.service-block {
+  width: 100%;
+  height: 200px;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin-bottom: 8px;
+}
+
+.service-form {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-between;
+}
+
+.service-form * {
+  display: block;
+  width: 90%;
+}
+
+.service-form input {
+  padding: 5px;
 }
