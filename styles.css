@@ -267,4 +267,19 @@ button {
   #about-article {
     margin-bottom: 8px;
   }
+
+  /* service page  */
+  #service-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aside {
+    width: 100%;
+  }
+
+  #service-article {
+    width: 100%;
+    text-align: center;
+  }
 }
