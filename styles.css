@@ -244,11 +244,27 @@ button {
   }
 
   .img-section {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .img-block {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  /* about page */
+  #about-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about-section * {
+    width: 100%;
+  }
+
+  #about-article {
+    margin-bottom: 8px;
   }
 }
